@@ -5,7 +5,7 @@ Home: https://uritemplate.readthedocs.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: URI templates
 
@@ -69,9 +69,10 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/uritemplate.py-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/uritemplate.py-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/uritemplate.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/uritemplate.py-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/uritemplate.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/uritemplate.py-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/uritemplate-py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/uritemplate-py-feedstock/branch/master)
 
 Current release info
 ====================
