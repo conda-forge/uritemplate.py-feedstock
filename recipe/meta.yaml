@@ -1,36 +1,37 @@
-{% set name = "uritemplate.py" %}
-{% set version = "0.3.0" %}
+{% set version = "3.0.2" %}
 
 package:
-    name: {{ name }}
-    version: {{ version }}
+  name: uritemplate.py
+  version: {{ version }}
 
 source:
-    fn: {{ name }}-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    md5: 4dd14904ba502c6ff8d6276e004404de
+  fn: uritemplate.py-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/u/uritemplate.py/uritemplate.py-{{ version }}.tar.gz
+  sha256: e0cdeb0f55ec18e1580974e8017cd188549aacc2aba664ae756adb390b9d45b4
 
 build:
-    number: 0
-    script: python setup.py install
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - uritemplate
+  imports:
+    - uritemplate
 
 about:
-    home: https://uritemplate.readthedocs.org
-    license: BSD-3-Clause
-    summary: URI templates
+  home: https://uritemplate.readthedocs.org
+  license: BSD 3-Clause
+  license_file: LICENSE.BSD
+  summary: 'URI templates.'
 
 extra:
-    recipe-maintainers:
-        - jakirkham
-        - ocefpaf
-        - sigmavirus24
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf
+    - sigmavirus24
