@@ -3,11 +3,11 @@ About uritemplate.py
 
 Home: https://uritemplate.readthedocs.org
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: URI templates
+Summary: URI templates.
 
 
 
