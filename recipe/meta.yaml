@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: uritemplate.py-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/u/uritemplate.py/uritemplate.py-{{ version }}.tar.gz
   sha256: e0cdeb0f55ec18e1580974e8017cd188549aacc2aba664ae756adb390b9d45b4
 
@@ -18,7 +17,6 @@ requirements:
   build:
     - pip
     - python
-    - setuptools
   run:
     - python
 
