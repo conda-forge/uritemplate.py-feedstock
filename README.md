@@ -14,14 +14,15 @@ Summary: URI templates.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/uritemplate.py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/uritemplate.py-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/uritemplate.py-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/uritemplate.py-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/uritemplate.py-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/uritemplate-py-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/uritemplate.py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/uritemplate.py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/uritemplate.py/badges/version.svg)](https://anaconda.org/conda-forge/uritemplate.py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/uritemplate.py/badges/downloads.svg)](https://anaconda.org/conda-forge/uritemplate.py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-uritemplate.py-green.svg)](https://anaconda.org/conda-forge/uritemplate.py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/uritemplate.py.svg)](https://anaconda.org/conda-forge/uritemplate.py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/uritemplate.py.svg)](https://anaconda.org/conda-forge/uritemplate.py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/uritemplate.py.svg)](https://anaconda.org/conda-forge/uritemplate.py) |
 
 Installing uritemplate.py
 =========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
